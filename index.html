@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg" alt="freeCodecamp logo">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#video">Curriculum</a>
+        <a class="nav-link" href="#mission">Mission</a>
+         <a class="nav-link" href="#alumni">Alumni</a>
+        <a class="nav-link" href="#form">Sign Up</a>
+      </nav>
+    </header>
+    <section id="mission">
+      <h1>Our Mission</h1>
+      <p>Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.</p>
+    </section>
+    <section id="curriculum">
+      <h1>Our Curriculum</h>
+        <iframe id="video" width="966" height="543" 
+        src="https://www.youtube.com/embed/9YrmceShvzM" 
+        title="Let&#39;s Explore freeCodeCamp&#39;s Curriculum" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+    </section>
+    <section id="alumni">
+      <h1>Shawn Wang in Singapore</h1>
+      <h2>Software Engineer at <a href="https://www.amazon.jobs/en/">Amazon</a>
+      </h2>
+      <div class="quote-container">
+        <img class="quote-image" src="https://www.freecodecamp.org/static/Shawn-bf42c7b909dae3111d18a21870ee6ca5.png" alt="Shawn Wang headshot">
+        <blockquote>"It's scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer. freeCodeCamp changed my life."</blockquote>
+      </div>
+      <hr></hr>
+      <h1>Sarah Chima in Nigeria</h1>
+      <h2>Software Engineer at <a href="https://www.chatdesk.com/careers">ChatDesk</a></h2>
+      <div class="quote-container">
+        <img class="quote-image" src="https://www.freecodecamp.org/static/Sarah-45de0e53b7b2520ebbac35c454b9748a.png" alt="Sarah Chima headshot">
+        <blockquote>"freeCodeCamp was the gateway to my career as a software developer. The well-structured curriculum took my coding knowledge from a total beginner level to a very confident level. It was everything I needed to land my first dev job at an amazing company."</blockquote>
+      </div>
+       <hr></hr>
+      <h1>Emma Bostian in Sweden</h1>
+      <h2>Software Engineer at <a href="https://www.lifeatspotify.com/">Spotify</a></h2>
+      <div class="quote-container">
+        <img class="quote-image" src="https://www.freecodecamp.org/static/Emma-5a662db9bcf55809a1fefb2ea17634bc.png" alt="Emma Bostian headshot">
+        <blockquote>"I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck. Studying JavaScript as well as data structures and algorithms on freeCodeCamp gave me the skills and confidence I needed to land my dream job as a software engineer at Spotify."</blockquote>
+      </div>
+       <hr></hr>
+    </section>
+    <section class="sign-up">
+      <form id="form" action="https://www.freecodecamp.com/email-submit" >
+        <div class="container">
+          <label>First Name:</label>
+          <input id="first-name" type="text"></input>
+        </div>
+        <div class="container">
+          <label>Last Name:</label>
+          <input id="last-name" type="text"></input>
+        </div>
+        <div class="container">
+          <label for="email">Email: </label>
+          <input name="email" id="email" type="email" placeholder="me@email.com"></input>
+        </div>
+        <input type="submit" id="submit"></input>
+    </section>
+  </body>
+</html>
+  
