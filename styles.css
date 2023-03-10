@@ -5,6 +5,9 @@ body {
   margin: 0;
 }
 
+section {
+  padding-top: 50px;
+
 header {
   display: flex;
   justify-content: space-between;
