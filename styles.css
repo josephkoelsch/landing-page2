@@ -6,7 +6,7 @@ body {
 }
 
 section {
-  padding-top: 50px;
+  padding-top: 100px;
 
 header {
   display: flex;
@@ -34,15 +34,14 @@ a:link, a:hover, a:visited, a:active {
 }
 
 #mission {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 #mission-statement {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 250px;
 
 .quote-image {
   width: 12rem;
