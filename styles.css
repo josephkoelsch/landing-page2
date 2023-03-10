@@ -37,6 +37,13 @@ a:link, a:hover, a:visited, a:active {
   padding-top: 100px;
 }
 
+#mission-statement {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+
 .quote-image {
   width: 12rem;
   height: 12rem;
